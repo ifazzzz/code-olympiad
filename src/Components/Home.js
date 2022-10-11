@@ -1,11 +1,7 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Link} from 'react-router-dom';
-import { TopicsContext } from '../Layout/Main';
 
 const Home = () => {
-
-    const topics = useContext(TopicsContext)
-    console.log(topics);
 
     return (
         <div>
