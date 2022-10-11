@@ -6,10 +6,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const QuizData = ({quiz}) => {
     const {options, question, correctAnswer} = quiz;
-    // console.log(correctAnswer);
-    // console.log(correctAnswer);
+
     const [op1, op2, op3, op4] = options;
-    // console.log(options);
+
     let result;
 
     const checkAnswer = (answer) => {
