@@ -9,13 +9,15 @@ const TopicQuiz = () => {
     // console.log(quizdata,questions);
     
     return (
-        <div>
-            {
+        <div className="container mx-auto my-12">
+           <div className="grid grid-cols-2 gap-4">
+           {
               quizdata.map(quiz => <QuizData
               key={quiz.id}
               quiz={quiz}
               ></QuizData>)
             }
+           </div>
         </div>
     );
 };
