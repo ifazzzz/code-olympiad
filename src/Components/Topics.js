@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { TopicsContext } from '../Layout/Main';
 import TopicData from './TopicData';
 
+
 const Topics = () => {
     const topics = useContext(TopicsContext)
     return (
@@ -12,7 +13,8 @@ const Topics = () => {
             key={topic.id}
             topic={topic}
             ></TopicData>)
-           } 
+           }
+           
         </div>
         </div>
     );
