@@ -1,6 +1,6 @@
 # project Name : Code Olympiad
 
-# Live Site : 
+# Live Site : [https://code-olympiad-79dd65.netlify.app/]
 
 
 
@@ -10,7 +10,7 @@ This project is a website for practicing web development topics. A user Can prac
 
 # step Taken to Complete this project : 
 
-* This project what made with React.js. it's a single page application. React Router Was used to render different components Dynamically. 
+* This project was made with React.js. it's a single page application. React Router Was used to render different components Dynamically. 
 > Available Pages : 
 1. Home
 2. Topics
