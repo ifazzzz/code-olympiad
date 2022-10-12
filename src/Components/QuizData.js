@@ -42,7 +42,7 @@ const QuizData = ({quiz}) => {
     }
 
     const showToastMessage = () => {
-      toast.info(correctAnswer, {
+      toast.info(`Answer : ${correctAnswer}`, {
         position: "top-center",
         autoClose: 4000,
         hideProgressBar: false,
@@ -58,7 +58,7 @@ const QuizData = ({quiz}) => {
 
         <div className="p-10 bg-gray-100 drop-shadow-md">
 
-            <p className="bg-white p-2 rounded-md">{question}</p>
+        <p className="bg-white p-2 rounded-md mr-1"> {question}</p>
 
             <div className="p-6 my-10 grid grid-cols-1 gap-2">
                 <div className="bg-white p-2 rounded-md">

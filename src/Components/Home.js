@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link} from 'react-router-dom';
+import Topics from './Topics';
 
 const Home = () => {
 
@@ -17,7 +18,9 @@ const Home = () => {
                 </div>
             </section>
 
-            
+            <div className="my-40">
+                <Topics></Topics>
+            </div>
         </div>
     );
 };

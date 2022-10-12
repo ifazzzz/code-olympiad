@@ -1,3 +1,31 @@
+# project Name : Code Olympiad
+
+# Live Site : 
+
+
+
+# Project Summary
+
+This project is a website for practicing web development topics. A user Can practise his knowledge on web development and it's Different topics like The Javascript programming Language , Git etc.
+
+# step Taken to Complete this project : 
+
+* This project what made with React.js. it's a single page application. React Router Was used to render different components Dynamically. 
+> Available Pages : 
+1. Home
+2. Topics
+3. Statistics
+4. Blog
+5. About
+
+* Tailwind css was used to style the layout of the website and mamba ui was used to build some components. the data on the topics was loaded from this api [https://openapi.programming-hero.com/api/quiz] using react router features and the data was used with the help of Context Api to pass through the components.
+
+* There is a navbar which shows the different pages you can go. The topic section contains different topics which the user can click to start his quiz on that topic. a toast will pop up when the user clicks on an option and see if the answer is right or wrong. the eye button shows the correct answer. 
+
+* the statistics page shows the summary of total number of question on every topic and the blog section answers some question about react.js.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
