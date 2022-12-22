@@ -19,6 +19,7 @@ const QuizData = ({quiz}) => {
        else{
         result = false;
        }
+      //  toasts
        result ? (toast.success("Correct Answer", {
         position: "top-center",
         autoClose: 1000,
